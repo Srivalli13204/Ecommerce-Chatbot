@@ -61,12 +61,19 @@ python manage.py runserver
 
 ### 7. Access the app
 - Home Page: http://127.0.0.1:8000/
+
   ![Welcome Page](https://github.com/user-attachments/assets/9751afbc-a104-414f-9344-0cdd29a6e877)
+  
 - Chatbot: http://127.0.0.1:8000/chatbot/
+
   ![Chatbot Page](https://github.com/user-attachments/assets/20929ef2-fca0-4d85-a1b1-2af25d16943b)
+  
 - Login: http://127.0.0.1:8000/accounts/login/
+
   ![Login Page](https://github.com/user-attachments/assets/2997ea95-7cfd-4bce-adf4-1df6527903c5)
+  
 - Register: http://127.0.0.1:8000/accounts/register/
+
   ![Register Page](https://github.com/user-attachments/assets/29dc6139-a516-4360-b38c-a189926bf7fd)
 
 ## Technology Stack
@@ -110,8 +117,11 @@ python manage.py runserver
 - "Looking for headphones"
 - "Do you have books?"
 - "I want to buy shoes"
+
 ![API Chat](https://github.com/user-attachments/assets/5875b05a-2bb9-498b-b372-5ce4d4c150a1)
+
 The chatbot uses basic keyword detection (e.g., 'laptop', 'shirt') to filter and display matching products.
+
 ![Result](https://github.com/user-attachments/assets/9034663d-6227-4a62-ba73-fc0fc8bdb5af)
 
 
