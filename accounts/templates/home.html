@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>E-Commerce Chatbot</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Segoe UI', sans-serif;
+    }
+
+    body {
+      background: linear-gradient(135deg, #e0f7fa, #d1c4e9);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+
+    .container {
+      background: #fff;
+      padding: 50px 40px;
+      border-radius: 20px;
+      box-shadow: 0 12px 30px rgba(0, 0, 0, 0.1);
+      text-align: center;
+      width: 90%;
+      max-width: 600px;
+      transition: transform 0.3s ease;
+      animation: fadeIn 1s ease forwards;
+    }
+
+    .container:hover {
+      transform: translateY(-3px);
+    }
+
+    h1 {
+      font-size: 28px;
+      color: #243c7e;
+      margin-bottom: 25px;
+    }
+
+    p {
+      margin: 20px 0;
+    }
+
+    a {
+      text-decoration: none;
+      color: white;
+      background: linear-gradient(45deg, #4a69bd, #6a89cc);
+      padding: 12px 25px;
+      border-radius: 10px;
+      font-size: 16px;
+      margin: 10px;
+      display: inline-block;
+      transition: all 0.3s ease;
+    }
+
+    a:hover {
+      background: linear-gradient(45deg, #2c478f, #4a69bd);
+      transform: scale(1.05);
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(20px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    @media (max-width: 600px) {
+      .container {
+        padding: 30px 20px;
+      }
+
+      h1 {
+        font-size: 22px;
+      }
+
+      a {
+        font-size: 14px;
+        padding: 10px 18px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Welcome to the E-Commerce Chatbot</h1>
+    <p>
+      <a href="/chatbot/">💬 Go to Chatbot</a>
+    </p>
+    <p>
+      <a href="/accounts/login/">🔐 Login</a>
+      <a href="/accounts/register/">📝 Register</a>
+    </p>
+  </div>
+</body>
+</html>
