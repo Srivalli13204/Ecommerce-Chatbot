@@ -61,15 +61,14 @@ python manage.py runserver
 
 ### 7. Access the app
 - Home Page: http://127.0.0.1:8000/
-- ![Welcome Page](https://github.com/user-attachments/assets/9751afbc-a104-414f-9344-0cdd29a6e877)
-- Chatbot: http://127.0.0.1:8000/chatbot/
 
-  ![Chatbot Page](https://github.com/user-attachments/assets/20929ef2-fca0-4d85-a1b1-2af25d16943b)
+  ![Welcome Page](https://github.com/user-attachments/assets/9751afbc-a104-414f-9344-0cdd29a6e877)
+- Chatbot: http://127.0.0.1:8000/chatbot/
   
+  ![Chatbot Page](https://github.com/user-attachments/assets/20929ef2-fca0-4d85-a1b1-2af25d16943b)
 - Login: http://127.0.0.1:8000/accounts/login/
 
   ![Login Page](https://github.com/user-attachments/assets/2997ea95-7cfd-4bce-adf4-1df6527903c5)
-  
 - Register: http://127.0.0.1:8000/accounts/register/
 
   ![Register Page](https://github.com/user-attachments/assets/29dc6139-a516-4360-b38c-a189926bf7fd)
