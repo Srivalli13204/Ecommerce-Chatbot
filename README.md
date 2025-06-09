@@ -1,4 +1,4 @@
-![API Chat](https://github.com/user-attachments/assets/877e2984-f326-4722-9216-3e8994b48831)# E-Commerce Sales Chatbot
+# E-COMMERCE SALES CHATBOT
 
 An intelligent chatbot system designed to enhance customer interaction in an e-commerce environment. Built using **Django**, **Django REST Framework**, and **HTML/CSS/JavaScript**, this chatbot simulates a conversational assistant that helps users search and explore products effectively.
 
@@ -61,9 +61,7 @@ python manage.py runserver
 
 ### 7. Access the app
 - Home Page: http://127.0.0.1:8000/
-
-  ![Welcome Page](https://github.com/user-attachments/assets/9751afbc-a104-414f-9344-0cdd29a6e877)
-  
+- ![Welcome Page](https://github.com/user-attachments/assets/9751afbc-a104-414f-9344-0cdd29a6e877)
 - Chatbot: http://127.0.0.1:8000/chatbot/
 
   ![Chatbot Page](https://github.com/user-attachments/assets/20929ef2-fca0-4d85-a1b1-2af25d16943b)
