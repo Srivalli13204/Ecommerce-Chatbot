@@ -77,9 +77,7 @@ python manage.py runserver
 
 ## Project Architecture
 
-ecommerce_bot/
-
-│
+| ecommerce_bot/
 
 ├── chatbot/                → Main app for chatbot logic and views
 
@@ -94,8 +92,6 @@ ecommerce_bot/
 │   ├── models.py           → Product database model
 
 │   └── serializers.py      → DRF serializers for API responses
-
-│
 
 ├── accounts/               → Handles login and registration
 
