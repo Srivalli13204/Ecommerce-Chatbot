@@ -125,5 +125,15 @@ The chatbot uses basic keyword detection (e.g., 'laptop', 'shirt') to filter and
 |-------------------------------------|----------------------------------------------------|
 | Handling unauthenticated access     | Used @login_required decorator for sensitive views |
 | Managing static files and templates | Separated concerns into dedicated folders          |
-| Keyword search limitations          | Applied basic keyword filtering using icontains in queries |
 | Styling user vs bot messages        | Used dynamic CSS classes for distinct visual representation |
+
+## Future Scope
+- Use NLP or LLM (like GPT) for semantic search
+- Enable add-to-cart and checkout functionality
+- Connect to a real-time product database
+- Deploy on cloud hosting platforms
+
+## Author
+- Name: Pichika Parimala Durga Srivalli
+- GitHub: Srivalli13204
+- Email: isiri1320@gmail.com
