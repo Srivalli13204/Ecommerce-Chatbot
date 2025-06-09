@@ -96,4 +96,5 @@ ecommerce_bot/
 - "Looking for headphones"
 - "Do you have books?"
 - "I want to buy shoes"
+
 The chatbot uses basic keyword detection (e.g., 'laptop', 'shirt') to filter and display matching products.
