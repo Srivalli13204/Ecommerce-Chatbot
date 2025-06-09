@@ -74,3 +74,26 @@ python manage.py runserver
 | Auth System     |	Django Auth + JWT (SimpleJWT)             |
 | Database	      | SQLite (pre-populated with mock products) |
 | Deployment	    | Local (can be extended to Render/Heroku)  |
+
+## Project Architecture
+ecommerce_bot/
+│
+├── chatbot/                → Main app for chatbot logic and views
+│   ├── templates/          → HTML templates for chatbot & UI
+│   ├── static/             → CSS/JS assets
+│   ├── views.py            → Frontend/backend view logic
+│   ├── urls.py             → Chatbot-specific routes
+│   ├── models.py           → Product database model
+│   └── serializers.py      → DRF serializers for API responses
+│
+├── accounts/               → Handles login and registration
+├── ecommerce_bot/          → Project configuration and routing
+├── db.sqlite3              → Mock database
+└── manage.py               → Django command-line tool
+
+## Sample Queries
+- "Show me mobile phones"
+- "Looking for headphones"
+- "Do you have books?"
+- "I want to buy shoes"
+The chatbot uses basic keyword detection (e.g., 'laptop', 'shirt') to filter and display matching products.
