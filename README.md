@@ -30,13 +30,15 @@ It mimics a real-world e-commerce assistant that helps streamline product discov
 ```bash
 git clone https://github.com/<your-username>/Ecommerce-Chatbot.git
 cd ecommerce_bot
+exit
 
 ### 2. Create and activate a virtual environment
 ```bash
 python -m venv env
 env\Scripts\activate
+exit
 
 ### Install required dependencies
 ```bash
 pip install -r requirements.txt
-
+exit
