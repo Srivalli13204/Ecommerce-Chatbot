@@ -30,12 +30,47 @@ It mimics a real-world e-commerce assistant that helps streamline product discov
 ```bash
 git clone https://github.com/<your-username>/Ecommerce-Chatbot.git
 cd ecommerce_bot
+```
 
 ### 2. Create and activate a virtual environment
 ```bash
 python -m venv env
 env\Scripts\activate
+```
 
-### Install required dependencies
+### 3. Install required dependencies
 ```bash
 pip install -r requirements.txt
+```
+
+### 4. Run migrations
+```bash
+python manage.py makemigrations
+python manage.py migrate
+```
+
+### 5. Create a superuser
+```bash
+python manage.py createsuperuser
+```
+
+### 6. Run the development server
+```bash
+python manage.py runserver
+```
+
+### 7. Access the app
+- Home Page: http://127.0.0.1:8000/
+- Chatbot: http://127.0.0.1:8000/chatbot/
+- Login: http://127.0.0.1:8000/accounts/login/
+- Register: http://127.0.0.1:8000/accounts/register/
+
+## Technology Stack
+| Layer           | Tools & Frameworks                        |
+|-----------------|-------------------------------------------|
+| Frontend        | HTML, CSS, JavaScript                     |
+| Backend         | Python, Django                            |
+| API Framework	  | Django REST Framework (DRF)               |
+| Auth System     |	Django Auth + JWT (SimpleJWT)             |
+| Database	      | SQLite (pre-populated with mock products) |
+| Deployment	    | Local (can be extended to Render/Heroku)  |
